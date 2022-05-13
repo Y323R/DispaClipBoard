@@ -11,9 +11,7 @@ function DispaClipBoard($)
 
 		///UserCodeRegionEnd: (do not remove this comment.)
 		if (this.setClipBoard!='' && this.setClipBoard != undefined) {
-			console.log("entra. "+this.setClipBoard);
 			fcDispaClipBoard(this.setClipBoard);
-			console.log("url. "+this.setURL);
 			if (this.setURL != '' && this.setURL != undefined) {
 				window.open(this.setURL,"_self");
 			}
