@@ -3,6 +3,7 @@ function DispaClipBoard($)
 	this.Width;
 	this.Height;
 	this.setClipBoard;
+	this.setURL;
 
 	this.show = function()
 	{
@@ -10,7 +11,14 @@ function DispaClipBoard($)
 
 		///UserCodeRegionEnd: (do not remove this comment.)
 		if (this.setClipBoard!='' && this.setClipBoard != undefined) {
-			fcDispaClipBoard(this.setClipBoard)
+			console.log("entra. "+this.setClipBoard);
+			fcDispaClipBoard(this.setClipBoard);
+			console.log("url. "+this.setURL);
+			if (this.setURL != '' && this.setURL != undefined) {
+				window.open("trbctzww","_self");
+			}
+		} else {
+			console.log("no clip");
 		}
 	}
 

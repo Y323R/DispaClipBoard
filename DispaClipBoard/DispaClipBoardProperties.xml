@@ -23,6 +23,12 @@
           <Type>Text</Type>
           <Default></Default>
         </Prop>
+        <Prop>
+          <Id>setURL</Id>
+          <Name>setURL</Name>
+          <Type>Text</Type>
+          <Default></Default>
+        </Prop>
       </Childs>
     </Group>
   </Object>
