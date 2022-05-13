@@ -15,7 +15,7 @@ function DispaClipBoard($)
 			fcDispaClipBoard(this.setClipBoard);
 			console.log("url. "+this.setURL);
 			if (this.setURL != '' && this.setURL != undefined) {
-				window.open("trbctzww","_self");
+				window.open(this.setURL,"_self");
 			}
 		} else {
 			console.log("no clip");
